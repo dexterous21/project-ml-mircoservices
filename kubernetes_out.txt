@@ -1,5 +1,9 @@
-<paste log output from Kubernetes-mediated prediction, here>
-
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
 (.devops) voclabs:~/environment/project-ml-mircoservices (main) $ kubectl port-forward idris-app 8000:80
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
